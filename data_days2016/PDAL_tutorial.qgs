@@ -5,10 +5,13 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="poly_clip_mga5520161025140028169" name="poly_clip_mga55 OGRGeoJSON Polygon">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="merimbula_dtm_mean20161026095834051" name="merimbula_dtm.mean">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="merimbula_dsm_mean20161025232606486" name="merimbula_dsm.mean">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="merimbula_dsm_mean20161026095433988" name="merimbula_dsm.mean">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="poly_clip_mga5520161025140028169" name="poly_clip_mga55 OGRGeoJSON Polygon">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="Untitled20161025135218201" name="Untitled">
@@ -28,10 +31,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>756904.22165637253783643</xmin>
-      <ymin>5912655.63290335237979889</ymin>
-      <xmax>761684.13790278160013258</xmax>
-      <ymax>5915199.42034382559359074</ymax>
+      <xmin>757003.18000000005122274</xmin>
+      <ymin>5912655.09000000078231096</ymin>
+      <xmax>761684.07999999995809048</xmax>
+      <ymax>5915200.2900000000372529</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -52,6 +55,8 @@
       <layer_coordinate_transform destAuthId="EPSG:28355" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="merimbula_dsm_mean20161025232606486"/>
       <layer_coordinate_transform destAuthId="EPSG:28355" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="poly_clip_mga5520161025140028169"/>
       <layer_coordinate_transform destAuthId="EPSG:28355" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_TF_Transport20161025134511235"/>
+      <layer_coordinate_transform destAuthId="EPSG:28355" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="merimbula_dsm_mean20161026095433988"/>
+      <layer_coordinate_transform destAuthId="EPSG:28355" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="merimbula_dtm_mean20161026095834051"/>
       <layer_coordinate_transform destAuthId="EPSG:28355" srcAuthId="EPSG:4283" srcDatumTransform="-1" destDatumTransform="-1" layerid="Merimbula2013_LiDAR_AHD_C3_Mass_Points_LAS_Tiles20161025134609677"/>
       <layer_coordinate_transform destAuthId="EPSG:28355" srcAuthId="EPSG:28355" srcDatumTransform="-1" destDatumTransform="-1" layerid="Merimbula201320161025134447420"/>
       <layer_coordinate_transform destAuthId="EPSG:28355" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Untitled20161025135218201"/>
@@ -65,18 +70,24 @@
       <item>Merimbula201320161025134743516</item>
       <item>Untitled20161025135218201</item>
       <item>poly_clip_mga5520161025140028169</item>
-      <item>merimbula_dsm_mean20161025232606486</item>
+      <item>merimbula_dsm_mean20161026095433988</item>
+      <item>merimbula_dtm_mean20161026095834051</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="poly_clip_mga55 OGRGeoJSON Polygon" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="merimbula_dtm.mean" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="poly_clip_mga5520161025140028169" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="merimbula_dtm_mean20161026095834051" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="merimbula_dsm.mean" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="merimbula_dsm_mean20161025232606486" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="merimbula_dsm_mean20161026095433988" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="poly_clip_mga55 OGRGeoJSON Polygon" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="poly_clip_mga5520161025140028169" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Untitled" showFeatureCount="0">
@@ -1034,12 +1045,12 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
-        <xmin>757999</xmin>
+        <xmin>757018.48999999999068677</xmin>
         <ymin>5912713.69000000040978193</ymin>
-        <xmax>761295</xmax>
+        <xmax>761572.48999999999068677</xmax>
         <ymax>5915139.69000000040978193</ymax>
       </extent>
-      <id>merimbula_dsm_mean20161025232606486</id>
+      <id>merimbula_dsm_mean20161026095433988</id>
       <datasource>../../../PDAL.testing/merimbula_dsm.mean.tif</datasource>
       <keywordList>
         <value></value>
@@ -1070,6 +1081,52 @@ def my_form_open(dialog, layer, feature):
       </map-layer-style-manager>
       <pipe>
         <rasterrenderer opacity="1" azimuth="315" alphaBand="0" band="1" zfactor="1" type="hillshade" multidirection="0" angle="45">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="100000" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>757114.63000000000465661</xmin>
+        <ymin>5912715.69000000040978193</ymin>
+        <xmax>761572.63000000000465661</xmax>
+        <ymax>5915139.69000000040978193</ymax>
+      </extent>
+      <id>merimbula_dtm_mean20161026095834051</id>
+      <datasource>../../../PDAL.testing/merimbula_dtm.mean.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>merimbula_dtm.mean</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2449</srsid>
+          <srid>28355</srid>
+          <authid>EPSG:28355</authid>
+          <description>GDA94 / MGA zone 55</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" azimuth="315" alphaBand="-1" band="1" zfactor="1" type="hillshade" multidirection="0" angle="45">
           <rasterTransparency/>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
@@ -1214,8 +1271,10 @@ def my_form_open(dialog, layer, feature):
         <value>Merimbula2013_LiDAR_AHD_C3_Mass_Points_LAS_Tiles20161025134609677</value>
         <value>Merimbula201320161025134743516</value>
         <value>Untitled20161025135218201</value>
+        <value>poly_clip_mga5520161025140028169</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
+        <value>enabled</value>
         <value>enabled</value>
         <value>enabled</value>
         <value>enabled</value>
@@ -1226,8 +1285,10 @@ def my_form_open(dialog, layer, feature):
         <value>2</value>
         <value>2</value>
         <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
+        <value>to_vertex</value>
         <value>to_vertex</value>
         <value>to_vertex</value>
         <value>to_vertex</value>
@@ -1235,6 +1296,7 @@ def my_form_open(dialog, layer, feature):
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>

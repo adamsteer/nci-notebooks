@@ -1,0 +1,85 @@
+{
+  "CTRL": {
+    "comboBox_Controls": "TrackballControls.js"
+  }, 
+  "DEM": {
+    "checkBox_Clip": false, 
+    "checkBox_Frame": false, 
+    "checkBox_Shading": true, 
+    "checkBox_Sides": false, 
+    "checkBox_Surroundings": false, 
+    "checkBox_TransparentBackground": false, 
+    "comboBox_ClipLayer": "act_sections20161026134415631", 
+    "comboBox_DEMLayer": "WCS113993212326219156320161025104819879", 
+    "comboBox_TextureSize": 100, 
+    "horizontalSlider_DEMSize": 2, 
+    "layerImageIds": [
+      "WCS589237481680934416220161025113705824"
+    ], 
+    "lineEdit_Color": "", 
+    "lineEdit_ImageFile": "", 
+    "lineEdit_centerX": "", 
+    "lineEdit_centerY": "", 
+    "lineEdit_rectHeight": "", 
+    "lineEdit_rectWidth": "", 
+    "radioButton_LayerImage": true, 
+    "radioButton_Simple": true, 
+    "spinBox_Height": 4, 
+    "spinBox_Roughening": 4, 
+    "spinBox_Size": 5, 
+    "spinBox_demtransp": 0, 
+    "visible": false
+  }, 
+  "OutputFilename": "/Users/adam/Documents/ipython.notebooks/nci-notebooks/data_days2016/qgis2threejs/veg_by_hilliness.html", 
+  "POLYGON": {
+    "act_sections20161026134415631": {
+      "checkBox_Clip": true, 
+      "checkBox_ExportAttrs": false, 
+      "comboBox_Label": null, 
+      "comboBox_ObjectType": 0, 
+      "heightWidget": {
+        "comboData": 2, 
+        "comboText": "Relative to DEM", 
+        "editText": "0", 
+        "type": 4
+      }, 
+      "labelHeightWidget": {
+        "comboData": 3, 
+        "comboText": "Height from top", 
+        "editText": "1786.96879889", 
+        "type": 6
+      }, 
+      "radioButton_IntersectingFeatures": true, 
+      "styleWidget0": {
+        "comboData": 1, 
+        "comboText": "Feature style", 
+        "editText": "", 
+        "type": 2
+      }, 
+      "styleWidget1": {
+        "comboData": 2, 
+        "comboText": "Fixed value", 
+        "editText": "20", 
+        "type": 5
+      }, 
+      "styleWidget2": {
+        "comboData": 110, 
+        "comboText": "\"dem_stdev\"", 
+        "editText": "8", 
+        "type": 1
+      }, 
+      "styleWidget3": {}, 
+      "styleWidget4": {}, 
+      "styleWidget5": {}, 
+      "visible": true
+    }
+  }, 
+  "PluginVersion": "1.4.2", 
+  "Template": "3DViewer(dat-gui).html", 
+  "WORLD": {
+    "lineEdit_BaseSize": "100", 
+    "lineEdit_Color": "", 
+    "lineEdit_zFactor": "3.0", 
+    "lineEdit_zShift": "0"
+  }
+}
