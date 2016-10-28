@@ -31,10 +31,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>756904.22165637253783643</xmin>
-      <ymin>5912655.63290335237979889</ymin>
-      <xmax>761684.13790278160013258</xmax>
-      <ymax>5915199.42034382559359074</ymax>
+      <xmin>757003.18000000005122274</xmin>
+      <ymin>5912655.09000000078231096</ymin>
+      <xmax>761684.07999999995809048</xmax>
+      <ymax>5915200.2900000000372529</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -1126,7 +1126,7 @@ def my_form_open(dialog, layer, feature):
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" azimuth="315" alphaBand="0" band="1" zfactor="1" type="hillshade" multidirection="0" angle="45">
+        <rasterrenderer opacity="1" azimuth="315" alphaBand="-1" band="1" zfactor="1" type="hillshade" multidirection="0" angle="45">
           <rasterTransparency/>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
